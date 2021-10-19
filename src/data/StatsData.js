@@ -18,7 +18,7 @@ export const StatsData = [
         style={{color: '#f3a82e'}}
       />
     ),
-    title: "1 Million Trips Made",
+    title: "1 Million Index Made",
     desc: "Over 1 million trips completed last year"
   },
   {

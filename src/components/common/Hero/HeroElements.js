@@ -1,33 +1,6 @@
-import React from "react"
 import styled from "styled-components"
-import Video from '../assets/videos/video.mp4'
-import {Button} from '../components/Button'
 
-const Hero = () => {
-  return (
-    <HeroContainer>
-      <HeroBg>
-        <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline />
-      </HeroBg>
-      <HeroContent>
-        <HeroItems>
-          <HeroH1>Unreal Destinations</HeroH1>
-          <HeroP>Out of this world</HeroP>
-          <Button
-            primary="true"
-            big="true"
-            round="true"
-            to="/trips"
-          >Travel Now</Button>
-        </HeroItems>
-      </HeroContent>
-    </HeroContainer>
-  )
-}
-
-export default Hero
-
-const HeroContainer = styled.div`
+export const HeroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
@@ -58,7 +31,7 @@ const HeroContainer = styled.div`
   }
 `
 
-const HeroBg = styled.div`
+export const HeroBg = styled.div`
   position: absolute;
   top: 0;
   bottom: 0;
@@ -69,21 +42,21 @@ const HeroBg = styled.div`
   overflow: hidden;
 `
 
-const VideoBg = styled.video`
+export const VideoBg = styled.video`
    width: 100%;
    height: 100%;
    -o-object-fit: cover;
    object-fit: cover;
 `
 
-const HeroContent = styled.div`
+export const HeroContent = styled.div`
    z-index: 3;
    height: calc(100vh - 80px);
    max-height: 100%;
    padding: 0rem calc((100vw - 1300px) / 2);
 `
 
-const HeroItems = styled.div`
+export const HeroItems = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,14 +70,14 @@ const HeroItems = styled.div`
   font-weight: bold;
 `
 
-const HeroH1 = styled.h1`
+export const HeroH1 = styled.h1`
   font-size: clamp(1.5rem, 6vw, 4rem);
   margin-bottom: 1.5rem;
   letter-spacing: 3px;
   padding: 0 1rem;  
 `
 
-const HeroP = styled.p`
+export const HeroP = styled.p`
   font-size: clamp(1rem, 3vw, 3rem);
   margin-bottom: 2rem;
   font-weight: 400;

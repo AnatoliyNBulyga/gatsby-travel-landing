@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="058b9b55-7ed6-4ebf-bf7a-a7d3e7322306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Email.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Testimonials.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Trips.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/GlobalStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/MenuData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StatsData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/trips.json" afterDir="false" />
+    <list default="true" id="d898022a-be11-4fd5-a7e5-44658995d9b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/Destinations/DestinationsElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Destinations/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Email/EmailElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Email/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Footer/FooterElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Header/HeaderElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Hero/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Sidebar/SidebarElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Sidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Stats/StatsElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Stats/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Testimonials/TestimonialsElements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-gatsby-travel-v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-gatsby-travel-v1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gatsby-astronaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/travel1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/travel1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/travel2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/travel2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/utils/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Email.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Hero/HeroElements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Testimonials/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Trips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/GlobalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/MenuData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/MenuData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/StatsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/StatsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/trips.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/trips.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,69 +49,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1yjMSGrJSoFnbvzwjPLXU4CDJg6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1zgqY85XMcx8yRfKOShfo57ehwn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="E:\PROJECTS\react-gatsby-travel-v1\node_modules\prettier" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PROJECTS\react-gatsby-travel-v1\src" />
-      <recent name="E:\PROJECTS\react-gatsby-travel-v1\src\assets" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="058b9b55-7ed6-4ebf-bf7a-a7d3e7322306" name="Default Changelist" comment="" />
-      <created>1632760541612</created>
+      <changelist id="d898022a-be11-4fd5-a7e5-44658995d9b5" name="Changes" comment="" />
+      <created>1634580122700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632760541612</updated>
-      <workItem from="1632760542749" duration="7244000" />
-      <workItem from="1632851222269" duration="4611000" />
-      <workItem from="1633246618375" duration="4200000" />
-      <workItem from="1633251301156" duration="5698000" />
-      <workItem from="1633271022594" duration="11105000" />
+      <updated>1634580122700</updated>
+      <workItem from="1634580124059" duration="3460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/node_modules/gatsby-plugin-sharp/safe-sharp.d.js" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="version" value="3" />
   </component>
 </project>

@@ -1,14 +1,14 @@
 [
   {
     "img": "../assets/images/travel1.jpg",
-    "alt": "Tian Tan Buddha",
-    "name": "Tian Tan Buddha",
+    "alt": "Ad Deir",
+    "name": "Ad Deir",
     "button": "View Destination"
   },
   {
     "img": "../assets/images/travel2.jpg",
-    "alt": "Ad Deir",
-    "name": "Ad Deir",
+    "alt": "Tian Tan Buddha",
+    "name": "Tian Tan Buddha",
     "button": "View Destination"
   },
   {
