@@ -23,7 +23,7 @@ const Destinations = ({heading}) => {
     
     gsap.from(".animate" , {
       duration: 1,
-      y: 100,
+      x: -100,
       opacity: 0,
       ease: 'ease-in',
       scrollTrigger: {

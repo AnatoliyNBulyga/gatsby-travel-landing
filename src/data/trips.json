@@ -1,14 +1,14 @@
 [
   {
     "img": "../assets/images/travel1.jpg",
-    "alt": "Ad Deir",
-    "name": "Ad Deir",
+    "alt": "Taj Mahal",
+    "name": "Taj Mahal",
     "button": "View Destination"
   },
   {
     "img": "../assets/images/travel2.jpg",
-    "alt": "Tian Tan Buddha",
-    "name": "Tian Tan Buddha",
+    "alt": "Athens, Greece",
+    "name": "Athens, Greece",
     "button": "View Destination"
   },
   {
