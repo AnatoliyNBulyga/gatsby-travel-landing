@@ -44,7 +44,7 @@ const Destinations = ({heading}) => {
                 name
                 img {
                   childImageSharp {
-                    fluid {
+                    fluid(maxWidth: 3080, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

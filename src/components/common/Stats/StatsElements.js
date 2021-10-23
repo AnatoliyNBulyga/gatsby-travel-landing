@@ -23,11 +23,11 @@ export const Wrapper = styled.div`
   grid-gap: 10px;
   
   @media (max-width: 767px) {
-    grid-template-column: 2fr;
+    grid-template-columns: 1fr 1fr;
   } 
   
   @media (max-width: 500px) {
-    grid-template-column: 1fr;
+    grid-template-columns: 1fr;
   } 
 `
 

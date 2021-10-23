@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import Header from "../common/Header"
 import { GlobalStyle } from "../../styles/GlobalStyles"
 import Sidebar from "../common/Sidebar"
