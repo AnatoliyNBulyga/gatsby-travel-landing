@@ -1,4 +1,4 @@
-import React, {useEffect} from "react"
+import React, {useEffect, useRef} from "react"
 import {useStaticQuery, graphql} from 'gatsby'
 import {Button} from '../../utils/Button'
 import {ImLocation} from '@react-icons/all-files/im/ImLocation'
@@ -13,21 +13,21 @@ import {
   DestinationsTitle,
   DestinationsWrapper
 } from './DestinationsElements'
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 
 const Destinations = ({heading}) => {
-
+  const containerRef = useRef()
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger)
     
-    gsap.from(".animate" , {
+    gsap.from(containerRef.current , {
       duration: 1,
-      x: -100,
+      y: -100,
       opacity: 0,
-      ease: 'ease-in',
+      ease: 'ease-in-out',
       scrollTrigger: {
-        trigger: '.animate',
+        trigger: containerRef.current,
         // toggleActions: 'restart',
       }
     } )
@@ -58,7 +58,7 @@ const Destinations = ({heading}) => {
     const tripsArray = []
     data.allTripsJson.edges.forEach( (item, index) => {
       tripsArray.push(
-        <DestinationsCard key={index} className="animate">
+        <DestinationsCard key={index}>
           <DestinationsImg
             src={item.node.img.childImageSharp.fluid.src}
             fluid={item.node.img.childImageSharp.fluid}
@@ -88,7 +88,7 @@ const Destinations = ({heading}) => {
   return (
     <DestinationsContainer className="animate-container">
       <DestinationsHeading>{heading}</DestinationsHeading>
-      <DestinationsWrapper>{getTrips(data)}</DestinationsWrapper>
+      <DestinationsWrapper ref={containerRef}>{getTrips(data)}</DestinationsWrapper>
     </DestinationsContainer>
   )
 }

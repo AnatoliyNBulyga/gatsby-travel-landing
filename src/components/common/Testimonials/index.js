@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import {IoMdCheckmarkCircleOutline} from "@react-icons/all-files/io/IoMdCheckmarkCircleOutline"
 import { FaRegLightbulb } from "@react-icons/all-files/fa/FaRegLightbulb"
 import {useStaticQuery, graphql} from 'gatsby'
@@ -12,8 +12,26 @@ import {
   Description,
   Images
 } from './TestimonialsElements'
+import {gsap} from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 const Index = () => {
+
+  const imgsRef = useRef()
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger)
+    gsap
+        .from(imgsRef.current, {
+          duration: 1,
+          opacity: 0,
+          delay: 0.9,
+          x: 100,
+          ease: 'ease-in-out',
+          scrollTrigger: {
+            trigger: imgsRef.current
+          }
+        })
+  }, [])
 
   const data = useStaticQuery(graphql`
     query MyQuery {
@@ -69,7 +87,7 @@ const Index = () => {
             </p>
           </Testimonial>
         </ColumnOne>
-        <ColumnTwo>
+        <ColumnTwo ref={imgsRef}>
           {
             data.allFile.edges.map((item, index) =>
               <Images 

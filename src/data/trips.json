@@ -1,26 +1,26 @@
 [
   {
     "img": "../assets/images/travel1.jpg",
-    "alt": "Taj Mahal",
-    "name": "Taj Mahal",
-    "button": "View Destination"
-  },
-  {
-    "img": "../assets/images/travel2.jpg",
-    "alt": "Athens, Greece",
-    "name": "Athens, Greece",
-    "button": "View Destination"
-  },
-  {
-    "img": "../assets/images/travel3.jpg",
     "alt": "Humayun Tomb",
     "name": "Humayun Tomb",
     "button": "View Destination"
   },
   {
-    "img": "../assets/images/travel4.jpg",
+    "img": "../assets/images/travel2.jpg",
     "alt": "Dunhinda Falls",
     "name": "Dunhinda Falls",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/travel3.jpg",
+    "alt": "Taj Mahal",
+    "name": "Taj Mahal",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/travel4.jpg",
+    "alt": "Nawur, Afghanistan",
+    "name": "Nawur, Afghanistan",
     "button": "View Destination"
   }
 ]
