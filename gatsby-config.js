@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-travel-landing",
   siteMetadata: {
     title: `Gatsby Travel Website`,
     description: `Traver website showcasing the best travel desinations and deals online.`,
